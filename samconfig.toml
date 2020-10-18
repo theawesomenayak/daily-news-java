@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "daily-news"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-fz9ihfrn570a"
+s3_prefix = "daily-news"
+region = "us-west-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
